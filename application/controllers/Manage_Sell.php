@@ -12,4 +12,13 @@ class Manage_Sell extends CI_Controller
 		$this->load->view('manage_sell', $data);
 		$this->load->view('inc/footer', $data);
 	}
+
+	public function add()
+	{
+		$data['title'] = 'Tambah Data';
+		$this->load->view('inc/header', $data);
+		$this->load->view('inc/nav', $data);
+		$this->load->view('sell/add_sell', $data);
+		$this->load->view('inc/footer', $data);
+	}
 }
