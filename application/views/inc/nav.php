@@ -3,7 +3,7 @@
     <div class="side-nav-inner">
         <ul class="side-nav-menu scrollable">
             <li class="nav-item dropdown">
-                <a href="">
+                <a href="<?php echo base_url('/') ?>">
                     <span class="icon-holder">
                         <i class="anticon anticon-dashboard"></i>
                     </span>
@@ -24,8 +24,8 @@
                     <li <?php if ($this->uri->segment(1) == 'manage_sell') echo 'class="active"'; ?>>
                         <a href="<?php echo base_url('manage_sell') ?>">Kelola Penjualan</a>
                     </li>
-                    <li>
-                        <a href="">Coba</a>
+                    <li <?php if ($this->uri->segment(1) == 'digi_category') echo 'class="active"'; ?>>
+                        <a href="<?php echo base_url('digi_category') ?>">Kategori</a>
                     </li>
                 </ul>
             </li>

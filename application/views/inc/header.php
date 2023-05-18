@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/logo/favicon.png">
 
     <!-- page css -->
+    <link href="<?= base_url() ?>assets/vendors/datatables/dataTables.bootstrap.min.css" rel="stylesheet">
 
     <!-- Core css -->
     <link href="<?php echo base_url() ?>assets/css/app.min.css" rel="stylesheet">
