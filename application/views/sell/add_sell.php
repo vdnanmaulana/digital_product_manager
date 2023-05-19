@@ -39,19 +39,19 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label class="font-weight-semibold" for="productName">Nama Customer</label>
-                                <input type="text" class="form-control" id="productName" placeholder="Nama Produk">
+                                <input type="text" class="form-control" id="productName" placeholder="Nama Customer">
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-semibold" for="productName">Username Shopee/Tokped/Dll</label>
-                                <input type="text" class="form-control" id="productName" placeholder="Nama Produk">
+                                <input type="text" class="form-control" id="productName" placeholder="Username Shopee/Tokped/Dll">
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-semibold" for="productPrice">Nomor HP Customer</label>
-                                <input type="text" class="form-control" id="productPrice" placeholder="Harga">
+                                <input type="text" class="form-control" id="productPrice" placeholder="Nomor HP Customer">
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-semibold" for="productPrice">Email Customer</label>
-                                <input type="text" class="form-control" id="productPrice" placeholder="Email">
+                                <input type="text" class="form-control" id="productPrice" placeholder="Email Customer">
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-semibold" for="productCategory">Produk digital yang dibeli?</label>
