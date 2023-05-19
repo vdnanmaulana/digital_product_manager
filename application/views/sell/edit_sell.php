@@ -6,12 +6,12 @@
             <div class="page-header no-gutters has-tab">
                 <div class="d-md-flex m-b-15 align-items-center justify-content-between">
                     <div class="media align-items-center m-b-15">
-                        <!-- <div class="avatar avatar-image rounded" style="height: 70px; width: 70px">
+                        <div class="avatar avatar-image rounded" style="height: 70px; width: 70px">
                             <img src="<?= base_url() ?>assets/images/netflix.png" alt="">
-                        </div> -->
+                        </div>
                         <div class="m-l-15">
-                            <h4 class="m-b-0">Tambah Penjualan</h4>
-                            <p class="text-muted m-b-0">Tambah data penjualan</p>
+                            <h4 class="m-b-0">[Nama Produk]</h4>
+                            <p class="text-muted m-b-0"><span class="badge badge-pill badge-red font-size-12">Sharing</span></p>
                         </div>
                     </div>
                     <div class="m-b-15">

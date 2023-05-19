@@ -9,14 +9,14 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/logo/favicon.png">
 
-    <!-- page css -->
+    <!-- Page CSS -->
     <link href="<?= base_url() ?>assets/vendors/select2/select2.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/vendors/datatables/dataTables.bootstrap.min.css" rel="stylesheet">
 
-    <!-- Core css -->
+    <!-- Core CSS -->
     <link href="<?php echo base_url() ?>assets/css/app.min.css" rel="stylesheet">
     <!-- Core JQUERY -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="<?= base_url() ?>assets/js/pages/jquery.js"></script>
 
 
 </head>
@@ -27,13 +27,13 @@
             <!-- Header START -->
             <div class="header">
                 <div class="logo logo-dark">
-                    <a href="index.html">
+                    <a href="<?= base_url() ?>">
                         <img src="<?php echo base_url() ?>assets/images/logo/logo.png" alt="Logo">
                         <img class="logo-fold" src="<?php echo base_url() ?>assets/images/logo/logo-fold.png" alt="Logo">
                     </a>
                 </div>
                 <div class="logo logo-white">
-                    <a href="index.html">
+                    <a href="<?= base_url() ?>">
                         <img src="<?php echo base_url() ?>assets/images/logo/logo-white.png" alt="Logo">
                         <img class="logo-fold" src="<?php echo base_url() ?>assets/images/logo/logo-fold-white.png" alt="Logo">
                     </a>

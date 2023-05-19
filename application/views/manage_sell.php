@@ -47,7 +47,7 @@
                                                 Aksi
                                             </button>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="">Edit</a>
+                                                <a class="dropdown-item" href="<?= base_url('/manage_sell/edit') ?>">Edit</a>
                                                 <a class="dropdown-item" href="">Hapus</a>
                                             </div>
                                         </div>
