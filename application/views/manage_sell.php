@@ -9,7 +9,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h5>Kelola Penjualan</h5>
                     <div>
-                        <a href="" class="btn btn-sm btn-default"> <i class="anticon anticon-plus"></i> Tambah Data</a>
+                        <a href="<?= base_url('manage_sell/add') ?>" class="btn btn-sm btn-default"> <i class="anticon anticon-plus"></i> Tambah Data</a>
                     </div>
                 </div>
                 <div class="m-t-30">

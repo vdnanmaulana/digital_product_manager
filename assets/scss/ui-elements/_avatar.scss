@@ -92,7 +92,7 @@
 
 @each $tone in $tone-loop {
 
-    .avatar-#{nth($tone, 1)} {
+    .avatar-#{"#{nth($tone, 1)}"} {
         color: #{nth($tone, 2)};
         background: #{nth($tone, 3)};
     }

@@ -14,22 +14,21 @@
 </div>
 <!-- Page Container END -->
 <!-- Core Vendors JS -->
-<!-- <script>
-    $(document).ready(function() {
-        $('#data-table').DataTable();
-    });
-</script> -->
-
-<script src="<?= base_url() ?>assets/vendors/quill/quill.min.js"></script>
-<script src="<?php echo base_url() ?>assets/js/vendors.min.js"></script>
-<script src="<?= base_url() ?>assets/vendors/select2/select2.min.js"></script>
+<!-- Core Vendors JS -->
+<script src="<?= base_url() ?>assets/js/vendors.min.js"></script>
 
 <!-- page js -->
 <script src="<?= base_url() ?>assets/vendors/datatables/jquery.dataTables.min.js"></script>
 <script src="<?= base_url() ?>assets/vendors/datatables/dataTables.bootstrap.min.js"></script>
+<script src="<?= base_url() ?>assets/js/pages/datatables.js"></script>
+
+
+<script src="<?= base_url() ?>assets/vendors/select2/select2.min.js"></script>
+<script src="<?= base_url() ?>assets/vendors/quill/quill.min.js"></script>
+<script src="<?= base_url() ?>assets/js/pages/e-commerce-product-edit.js"></script>
 
 <!-- Core JS -->
-<script src="<?php echo base_url() ?>assets/js/app.min.js"></script>
+<script src="<?= base_url() ?>assets/js/app.min.js"></script>
 
 </body>
 

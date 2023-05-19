@@ -11,7 +11,7 @@
 		display: none;
 	}
 
-	@include screen-tablet {
+	@include screen-mobile {
 		left: -$side-nav-width;
 	}
 
@@ -325,12 +325,12 @@
 }
 
 .is-expand {
-	@include screen-tablet {
+	@include screen-mobile {
 		overflow: hidden;
 	}
 
 	.side-nav {
-		@include screen-tablet {
+		@include screen-mobile {
 			left: 0;
 		}
 	}
