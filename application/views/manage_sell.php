@@ -3,7 +3,8 @@
 
     <!-- Content Wrapper START -->
     <div class="main-content">
-
+        <?php echo $this->session->flashdata('success');
+        ?>
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
@@ -26,33 +27,38 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="media align-items-center">
-                                            <div class="avatar avatar-image rounded">
-                                                <img src="<?= base_url() ?>assets/images/netflix.png" alt="">
+                                <?php
+                                $no = 1;
+                                foreach ($data_sell as $sell) {
+                                ?>
+                                    <tr>
+                                        <td>
+                                            <div class="media align-items-center">
+                                                <div class="avatar avatar-image rounded">
+                                                    <img src="<?= base_url() ?>uploads/<?php echo $sell->image ?>" alt="">
+                                                </div>
+                                                <div class="m-l-10">
+                                                    <span>Akun Netflix</span>
+                                                </div>
                                             </div>
-                                            <div class="m-l-10">
-                                                <span>Akun Netflix</span>
+                                        </td>
+                                        <td><span class="badge badge-pill badge-blue"><?php echo $sell->username ?></span></td>
+                                        <td><?php echo $sell->start_date ?></td>
+                                        <td><?php echo $sell->exp_date ?></td>
+                                        <td><?php echo $sell->customer_name ?></td>
+                                        <td>
+                                            <div class="dropdown dropdown-animated scale-right">
+                                                <button type="button" class="btn btn-sm btn-danger dropdown-toggle" data-toggle="dropdown">
+                                                    Aksi
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="<?= base_url('manage_sell/edit/' . $sell->id) ?>">Edit</a>
+                                                    <a class="dropdown-item" href="<?= base_url('manage_sell/delete/' . $sell->id) ?>">Hapus</a>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td><span class="badge badge-pill badge-blue">adnanmaulana</span></td>
-                                    <td>12/02/2023</td>
-                                    <td>12/03/2023</td>
-                                    <td>Adnan Maulana</td>
-                                    <td>
-                                        <div class="dropdown dropdown-animated scale-right">
-                                            <button type="button" class="btn btn-sm btn-danger dropdown-toggle" data-toggle="dropdown">
-                                                Aksi
-                                            </button>
-                                            <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="<?= base_url('/manage_sell/edit') ?>">Edit</a>
-                                                <a class="dropdown-item" href="">Hapus</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                    </tr>
+                                <?php } ?>
 
                             </tbody>
                         </table>
